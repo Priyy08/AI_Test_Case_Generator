@@ -6,14 +6,21 @@ from transformers import BlipProcessor, BlipForConditionalGeneration
 import streamlit as st
 from io import BytesIO
 from groq import Groq
+from dotenv import load_dotenv
 
 # Initialize BLIP Processor and Model
 processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-large")
 model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-large")
 
-# Initialize Groq client
+# Load environment variables from .env file
+load_dotenv()
+
+# Retrieve the API key from environment variables
+groq_api_key = os.getenv('GROQ_API_KEY')
+
+# Initialize Groq client with the API key
 client = Groq(
-    api_key='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',
+    api_key=groq_api_key,
 )
 
 def generate_caption_and_tests(image, context=None, product_type="digital"):
