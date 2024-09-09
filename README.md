@@ -23,7 +23,7 @@ To get started, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-repo/digital-product-test-case-generator.git
+    git clone https://github.com/Priyy08/AI_Test_Case_Generator.git
     cd digital-product-test-case-generator
     ```
 
@@ -75,6 +75,5 @@ To get started, follow these steps:
     - **Test Case 2**: Test that the call-to-action button is functional and leads to the expected destination.
     - **Test Case 3**: Verify the website's responsiveness on different screen sizes (mobile, tablet, desktop).
 
-## License
+**Use Cases**: By using this project anyone can generate test cases of any digital products just by uploading of images so it leverages power of multimodal AI
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
