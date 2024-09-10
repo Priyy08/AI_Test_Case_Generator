@@ -2,7 +2,9 @@
 
 This AI-powered tool generates test cases for digital products such as websites or mobile apps based on images (screenshots). Using **BLIP (Bootstrapping Language-Image Pretraining)** for image captioning and **Groq** for generating detailed test cases, this tool makes it easy to write test instructions for functionality, responsiveness, and UX testing.
 
-**Actively Deployed on Hggingface Spaces: ** :  ```bash https://huggingface.co/spaces/prii8/AI_Test_Case_Generator ``` (you can access the app directly from this link)
+**Actively Deployed on Hggingface Spaces** :  ```bash 
+https://huggingface.co/spaces/prii8/AI_Test_Case_Generator 
+``` (you can access the app directly from this link)
 
 ## Features
 
